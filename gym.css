@@ -1,0 +1,87 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(https://cdn.pixabay.com/photo/2016/11/21/22/56/naked-1847866_960_720.jpg);
+}
+.left{ 
+    display: inline block;
+  border: 2px;
+   position: absolute;
+   font-size: 20px;
+
+}
+.mid{
+    display: block;
+    width: 50%;
+    margin: 12px auto;
+  border: 2px;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 0px;
+    display: inline-block;
+ border: 2px;
+ 
+}
+.navbar{
+    display: inline-block;
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li{
+  float: left;
+  list-style: none;
+  margin: 6px 10px;
+  
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 35px 25px;
+}
+.left img{
+  width: 100px;
+}
+.btn{
+  margin: 0px 9px;
+  background-color: black;
+  color: aliceblue;
+  padding: 4px 14px;
+  border: 2px solid gray;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.btn :hover{
+  background-color: blueviolet;
+}
+.container{
+border: 2px;
+margin: 106px 80px;
+padding: 75px;
+width: 30%;
+border-radius: 20%;
+}
+.form-group{
+  font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+ display: block;
+ width: 340px;
+ padding: 2px;
+ border-radius: 10px;
+ border: 2px;
+ font-size: 20px;
+margin: 11px;
+}
+.container h1{
+  text-align: center;
+}
+.container button{
+  display: block;
+ width: 30%;
+ margin: 21px auto;
+}
+
